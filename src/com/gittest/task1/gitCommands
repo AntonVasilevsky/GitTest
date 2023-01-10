@@ -1,0 +1,10 @@
+git add <fliename>
+git rm --cached  <filename>
+git rm --cached -r dir
+/*The --cached switch makes git rm operate on the index only and not touch the
+working copy. The -r switch makes it recursive.*/
+git branch <name>  - create new
+git branch -D <name> - delete
+git checkout <branchname> - switch to <branch name>
+git checkout -b <branchname> - create and switch to <branch name>
+git merge <branch to merge name> - merge two branches
