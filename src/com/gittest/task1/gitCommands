@@ -1,4 +1,4 @@
-git add <fliename>
+git add <filename>
 git rm --cached  <filename>
 git rm --cached -r dir
 /*The --cached switch makes git rm operate on the index only and not touch the
