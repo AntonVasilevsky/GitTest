@@ -58,4 +58,9 @@ public class Trial implements CheckExam{
     public boolean isPassed() {
         return getMarkOne()+getMarkTwo()>50;
     }
+
+    public void resetMarks(){
+        this.setMarkOne(0);
+        this.setMarkTwo(0);
+    }
 }

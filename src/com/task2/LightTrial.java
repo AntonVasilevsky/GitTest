@@ -14,7 +14,7 @@ public class LightTrial extends Trial {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "LightTrial " + super.toString();
     }
 
     @Override

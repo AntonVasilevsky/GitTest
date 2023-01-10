@@ -10,7 +10,7 @@ public class StrongTrial extends Trial{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "StrongTrial" + super.toString();
     }
 
     @Override
