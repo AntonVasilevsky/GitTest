@@ -1,11 +1,11 @@
 package com.task2;
 
-public class Trial {
+public class Trial implements CheckExam{
     private String name;
     private int markOne;
     private int markTwo;
 
-    private final int MARK_TO_PASS = 33;
+    private static final int MARK_TO_PASS = 33;
 
     public Trial() {
     }
@@ -47,5 +47,11 @@ public class Trial {
                 ", markOne=" + markOne +
                 ", markTwo=" + markTwo +
                 '}';
+    }
+
+
+    @Override
+    public boolean isPassed() {
+        return getMarkOne()+getMarkTwo()>50;
     }
 }
