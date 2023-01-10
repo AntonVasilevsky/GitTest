@@ -5,9 +5,13 @@ public class Trial implements CheckExam{
     private int markOne;
     private int markTwo;
 
-    private static final int MARK_TO_PASS = 33;
+    public static final int MARK_TO_PASS = 33;
 
     public Trial() {
+    }
+
+    public int getMARK_TO_PASS() {
+        return MARK_TO_PASS;
     }
 
     public Trial(String name, int markOne, int markTwo) {

@@ -21,5 +21,6 @@ public class LightTrial extends Trial {
     public boolean isPassed() {
         return (getMarkOne() >= MARK_TO_PASS_ONE
         && getMarkTwo() >= MARK_TO_PASS_TWO);
+
     }
 }
